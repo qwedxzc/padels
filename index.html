@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="main">
+            <div class="state">
+                <h1 class="state__title">
+                    Пары
+                </h1>
+                <p class="state__moves">
+                    Шаги: 0 шагов
+                </p>
+                <p class="state__time">
+                    Время: 60 секунд
+                </p>
+            </div>
+            <div class="board">
+                <h2 class="board__title">
+                    Настроить колличество карточек(2-6)
+                </h2>
+                <form class="bord__form">
+                    <input type="number" min="2" max="6" step="2" placeholder="По горизонтали / по вертикали" class="board__input">
+                    <button type="button" class="board__button">Начать</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
