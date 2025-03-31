@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'>
     
     <title>Document</title>
 </head>
@@ -29,11 +30,22 @@
                 </h2>
                 <form class="bord__form">
                     <input type="number" min="2" max="6" step="2" placeholder="По горизонтали / по вертикали" class="board__input">
-                    <button type="button" class="board__button">Начать</button>
+                    <button type="button" class="board__button button">Начать</button>
                 </form>
             </div>
         </div>
     </div>
+    <template id="gameTableTemplate">
+        <div class="table"></div>
+        <button type="button" class="table__button button" >Рестарт</button>
+    </template>
+    <template id="cardTemplate">
+        <div class="card">
+            <i class="flipper-icon fa" id="flipper-icon" ></i>
+            <i class="difault-iron fa fa-question-circle"></i>
+
+        </div>
+    </template>
     <script src="index.js"></script>
 </body>
 </html>
